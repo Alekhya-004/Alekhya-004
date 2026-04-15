@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/driver_drowsiness/datasets/Driver-Drowsiness-11/train/images
+val: /content/drive/MyDrive/driver_drowsiness/datasets/Driver-Drowsiness-11/train/images
+test: /content/drive/MyDrive/driver_drowsiness/datasets/Driver-Drowsiness-11/train/images
+
+nc: 6
+names: ['awake', 'distracted', 'eyes_closed', 'phone', 'smoking', 'yawn']
+
+roboflow:
+  workspace: drowsiness-detection-system
+  project: driver-drowsiness-3ldhq
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/drowsiness-detection-system/driver-drowsiness-3ldhq/dataset/11
